@@ -1,0 +1,31 @@
+.background {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    vertical-align: middle;
+    text-align: center;
+    &.dark {
+        color: #fff;
+        background: #36393f;
+    }
+}
+
+.split-item {
+    box-sizing: border-box;
+    position: relative;
+    display: flex;
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    vertical-align: middle;
+    text-align: center;
+    &.dark {
+        color: #fff;
+        background: #36393f;
+    }
+}
+
