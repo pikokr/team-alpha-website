@@ -11,6 +11,7 @@ class HomePage extends Component {
   render() {
     return (
       <ReactFullpage
+        licenseKey="wasans"
         scrollingSpeed={1000}
         render={({ state, fullpageApi }) => {
           return (
